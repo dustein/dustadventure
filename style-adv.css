@@ -1,4 +1,8 @@
 /* Estilos da pagina */
+html {
+  overflow-wrap: break-word;
+}
+
 header {
   background-color: #dee8fc;
   color: #111111;
