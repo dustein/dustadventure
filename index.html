@@ -4,89 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Índice de Posts por Categoria - Caso de Polícia</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f5f5f5;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-            border-bottom: 3px solid #007bff;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #007bff;
-            margin-top: 30px;
-            border-left: 4px solid #007bff;
-            padding-left: 15px;
-            background-color: #f8f9fa;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 8px 0;
-            padding: 12px;
-            background-color: #f8f9fa;
-            border-radius: 5px;
-            border-left: 3px solid #007bff;
-            transition: background-color 0.3s;
-        }
-        li:hover {
-            background-color: #e9ecef;
-        }
-        a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-        a:hover {
-            color: #007bff;
-        }
-        .data {
-            color: #666;
-            font-size: 0.9em;
-            margin-left: 10px;
-        }
-        .total {
-            background-color: #e9ecef;
-            padding: 15px;
-            border-radius: 5px;
-            margin: 20px 0;
-            text-align: center;
-            font-weight: bold;
-        }
-        .categoria-stats {
-            background-color: #fff3cd;
-            padding: 8px 12px;
-            border-radius: 15px;
-            font-size: 0.85em;
-            color: #856404;
-            display: inline-block;
-            margin-left: 10px;
-        }
-        .post-id {
-            background-color: #d1ecf1;
-            color: #0c5460;
-            padding: 2px 8px;
-            border-radius: 10px;
-            font-size: 0.8em;
-            margin-left: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style-index.css">
+    
 </head>
 <body>
     <div class="container">
@@ -95,187 +14,190 @@
 
         <div class="total">Total de posts: 39 | Categorias: 6</div>
 
-        <h2>📂 Viagem de Moto ao Uruguai<span class="categoria-stats">25 posts</span></h2>
-        <ul>
-            <li>
-                <a href="viagem-de-moto-ao-uruguai-apresentacao.html">Viagem de Moto ao Uruguai - Apresentação</a>
-                <span class="data">26/11/2013</span>
-            </li>
-            <li>
-                <a href="moto-e-equipamentos-da-viagem-ate-o-uruguai.html">Moto e Equipamentos da Viagem até o Uruguai</a>
-                <span class="data">27/11/2013</span>
-            </li>
-                        <li>
-                <a href="roteiro-e-dicas-da-viagem-de-moto-até-o-uruguai.html">Roteiro e Dicas da Viagem de Moto até o Uruguai</a>
-                <span class="data">30/11/2013</span>
-            </li>
-            <li>
-                <a href="de-moto-ate-o-uruguai-dia-1-rio-de-janeiro-a-sorocaba.html">De Moto até o Uruguai - Dia 1 - Rio de Janeiro a Sorocaba</a>
-                <span class="data">10/12/2013</span>
-            </li>
-            <li>
-                <a href="sorocaba-a-curitiba-rastro-da-serpente-dia-2.html">Dia 2 - de Sorocaba a Curitiba - Rastro da Serpente</a>
-                <span class="data">16/12/2013</span>
-            </li>
-            <li>
-                <a href="curitiba-a-florianopolis-dia-3.html">Dia 3 - Curitiba a Florianópolis</a>
-                <span class="data">26/12/2013</span>
-            </li>
-            <li>
-                <a href="florianopolis-a-braço-do-norte-dia-4.html">Dia 4 - Florianópolis a Braço do Norte</a>
-                <span class="data">15/01/2014</span>
-            </li>
-            <li>
-                <a href="braco-do-norte-serra-do-corvo-branco-lauro-muller-dia-5.html">Dia 5 - Braço do Norte - Serra do Corvo Branco - Lauro Muller</a>
-                <span class="data">17/01/2014</span>
-            </li>
-                        <li>
-                <a href="serra-do-rio-do-rastro-morro-da-igreja-nova-veneza-dia-6.html">Dia 6 - Serra do Rio do Rastro - Morro da Igreja - Nova Veneza</a>
-                <span class="data">24/01/2014</span>
-            </li>
-            <li>
-                <a href="cambara-do-sul-canion-itaimbezinho-dia-7.html">Dia 7 - Cambará do Sul - Cânion Itaimbezinho</a>
-                <span class="data">05/02/2014</span>
-            </li>
-            <li>
-                <a href="caxias-do-sul-bento-goncalves-dia-8.html">Dia 8 - Caxias do Sul - Bento Gonçalves</a>
-                <span class="data">15/03/2014</span>
-            </li>
-            <li>
-                <a href="santana-do-livramento-dia-9.html">Dia 9 - Santana do Livramento</a>
-                <span class="data">22/03/2014</span>
-            </li>
-            <li>
-                <a href="santana-do-livramento-rivera-dia-10.html">Dia 10 - Santana do Livramento - Rivera</a>
-                <span class="data">06/04/2014</span>
-            </li>
+        <div class="categorias">
+            <div>
+            <h2>📂 Viagem de Moto ao Uruguai<span class="categoria-stats">25 posts</span></h2>
+            <ul>
+                <li>
+                    <a href="viagem-de-moto-ao-uruguai-apresentacao.html">Viagem de Moto ao Uruguai - Apresentação</a>
+                    <span class="data">26/11/2013</span>
+                </li>
+                <li>
+                    <a href="moto-e-equipamentos-da-viagem-ate-o-uruguai.html">Moto e Equipamentos da Viagem até o Uruguai</a>
+                    <span class="data">27/11/2013</span>
+                </li>
+                            <li>
+                    <a href="roteiro-e-dicas-da-viagem-de-moto-até-o-uruguai.html">Roteiro e Dicas da Viagem de Moto até o Uruguai</a>
+                    <span class="data">30/11/2013</span>
+                </li>
+                <li>
+                    <a href="de-moto-ate-o-uruguai-dia-1-rio-de-janeiro-a-sorocaba.html">De Moto até o Uruguai - Dia 1 - Rio de Janeiro a Sorocaba</a>
+                    <span class="data">10/12/2013</span>
+                </li>
+                <li>
+                    <a href="sorocaba-a-curitiba-rastro-da-serpente-dia-2.html">Dia 2 - de Sorocaba a Curitiba - Rastro da Serpente</a>
+                    <span class="data">16/12/2013</span>
+                </li>
+                <li>
+                    <a href="curitiba-a-florianopolis-dia-3.html">Dia 3 - Curitiba a Florianópolis</a>
+                    <span class="data">26/12/2013</span>
+                </li>
+                <li>
+                    <a href="florianopolis-a-braço-do-norte-dia-4.html">Dia 4 - Florianópolis a Braço do Norte</a>
+                    <span class="data">15/01/2014</span>
+                </li>
+                <li>
+                    <a href="braco-do-norte-serra-do-corvo-branco-lauro-muller-dia-5.html">Dia 5 - Braço do Norte - Serra do Corvo Branco - Lauro Muller</a>
+                    <span class="data">17/01/2014</span>
+                </li>
+                            <li>
+                    <a href="serra-do-rio-do-rastro-morro-da-igreja-nova-veneza-dia-6.html">Dia 6 - Serra do Rio do Rastro - Morro da Igreja - Nova Veneza</a>
+                    <span class="data">24/01/2014</span>
+                </li>
+                <li>
+                    <a href="cambara-do-sul-canion-itaimbezinho-dia-7.html">Dia 7 - Cambará do Sul - Cânion Itaimbezinho</a>
+                    <span class="data">05/02/2014</span>
+                </li>
+                <li>
+                    <a href="caxias-do-sul-bento-goncalves-dia-8.html">Dia 8 - Caxias do Sul - Bento Gonçalves</a>
+                    <span class="data">15/03/2014</span>
+                </li>
+                <li>
+                    <a href="santana-do-livramento-dia-9.html">Dia 9 - Santana do Livramento</a>
+                    <span class="data">22/03/2014</span>
+                </li>
+                <li>
+                    <a href="santana-do-livramento-rivera-dia-10.html">Dia 10 - Santana do Livramento - Rivera</a>
+                    <span class="data">06/04/2014</span>
+                </li>
 
-            <li>
-                <a href="durazno-uruguai-dia-11.html">Dia 11 - Durazno - Uruguai</a>
-                <span class="data">16/04/2014</span>
-            </li>
-            <li>
-                <a href="colonia-del-sacramento-dia-12.html">Dia 12 - Colonia del Sacramento</a>
-                <span class="data">01/05/2014</span>
-            </li>
-            <li>
-                <a href="colonia-del-sacramento-montevideu-dia-13.html">Dia 13 - Colonia del Sacramento - Montevidéu</a>
-                <span class="data">10/05/2014</span>
-            </li>
-            <li>
-                <a href="montevideu-uruguai-dia-14.html">Dia 14 - Montevidéu - Uruguai</a>
-                <span class="data">22/05/2014</span>
-            </li>
-            <li>
-                <a href="punta-del-este-aguas-dulces-dia-15.html">Dia 15 - Punta del Este - Aguas Dulces</a>
-                <span class="data">07/06/2014</span>
-            </li>
-            <li>
-                <a href="cabo-polonio-dia-16-parte-1.html">Dia 16 parte 1 - Cabo Polonio</a>
-                <span class="data">12/06/2014</span>
-            </li>
-            <li>
-                <a href="fortaleza-santa-teresa-dia-16-parte-2.html">Dia 16 parte 2 - Fortaleza Santa Teresa</a>
-                <span class="data">14/06/2014</span>
-            </li>
-            <li>
-                <a href="reserva-do-taim-chuí-dia-17-parte-1.html">Dia 17 parte 1 - Reserva do Taim - Chuí</a>
-                <span class="data">23/06/2014</span>
-            </li>
-            <li>
-                <a href="rio-grande-tavares-dia-17-parte-2.html">Dia 17 parte 2 - Rio Grande - Tavares</a>
-                <span class="data">25/06/2014</span>
-            </li>
-            <li>
-                <a href="tunel-verde-tavares-dia-18.html">Dia 18 - Túnel Verde - Tavares</a>
-                <span class="data">12/07/2014</span>
-            </li>
-            <li>
-                <a href="imbituba-sorocaba-dia-19.html">Dia 19 - Imbituba - Sorocaba</a>
-                <span class="data">05/09/2016</span>
-            </li>
-            <li>
-                <a href="sorocaba-rio-de-janeiro-dia-20-e-21.html">Dia 20 e 21 - Sorocaba - Rio de Janeiro</a>
-                <span class="data">05/09/2016</span>
-            </li>            
-        </ul>
-        
-        <h2>📂 Viagens Curtas<span class="categoria-stats">6 posts</span></h2>
-        <ul>
-            <li>
-                <a href="passeio-em-sao-thome-das-letras.html">Passeio em São Thomé das Letras - parte 1</a>
-                <span class="data">16/10/2016</span>
-            </li>
-            <li>
-                <a href="sao-thome-das-letras-parte-2.html">São Thomé das Letras - parte 2</a>
-                <span class="data">22/10/2016</span>
-            </li>
-            <li>
-                <a href="sao-thome-das-letras-parte-3.html">São Thomé das Letras - parte 3</a>
-                <span class="data">03/12/2016</span>
-            </li>
-            <li>
-                <a href="sao-thome-das-letras-final">São Thomé das Letras - Final</a>
-                <span class="data">08/12/2016</span>
-            </li>
-            <li>
-                <a href="de-moto-do-rio-a-ibitipoca-mg.html">De moto do Rio a Ibitipoca / MG</a>
-                <span class="data">09/07/2013</span>
-            </li>
-            <li>
-                <a href="fim-de-semana-em-silva-jardim-rj.html">Fim de Semana em Silva Jardim - RJ</a>
-                <span class="data">30/06/2013</span>
-            </li>
-        </ul>
+                <li>
+                    <a href="durazno-uruguai-dia-11.html">Dia 11 - Durazno - Uruguai</a>
+                    <span class="data">16/04/2014</span>
+                </li>
+                <li>
+                    <a href="colonia-del-sacramento-dia-12.html">Dia 12 - Colonia del Sacramento</a>
+                    <span class="data">01/05/2014</span>
+                </li>
+                <li>
+                    <a href="colonia-del-sacramento-montevideu-dia-13.html">Dia 13 - Colonia del Sacramento - Montevidéu</a>
+                    <span class="data">10/05/2014</span>
+                </li>
+                <li>
+                    <a href="montevideu-uruguai-dia-14.html">Dia 14 - Montevidéu - Uruguai</a>
+                    <span class="data">22/05/2014</span>
+                </li>
+                <li>
+                    <a href="punta-del-este-aguas-dulces-dia-15.html">Dia 15 - Punta del Este - Aguas Dulces</a>
+                    <span class="data">07/06/2014</span>
+                </li>
+                <li>
+                    <a href="cabo-polonio-dia-16-parte-1.html">Dia 16 parte 1 - Cabo Polonio</a>
+                    <span class="data">12/06/2014</span>
+                </li>
+                <li>
+                    <a href="fortaleza-santa-teresa-dia-16-parte-2.html">Dia 16 parte 2 - Fortaleza Santa Teresa</a>
+                    <span class="data">14/06/2014</span>
+                </li>
+                <li>
+                    <a href="reserva-do-taim-chuí-dia-17-parte-1.html">Dia 17 parte 1 - Reserva do Taim - Chuí</a>
+                    <span class="data">23/06/2014</span>
+                </li>
+                <li>
+                    <a href="rio-grande-tavares-dia-17-parte-2.html">Dia 17 parte 2 - Rio Grande - Tavares</a>
+                    <span class="data">25/06/2014</span>
+                </li>
+                <li>
+                    <a href="tunel-verde-tavares-dia-18.html">Dia 18 - Túnel Verde - Tavares</a>
+                    <span class="data">12/07/2014</span>
+                </li>
+                <li>
+                    <a href="imbituba-sorocaba-dia-19.html">Dia 19 - Imbituba - Sorocaba</a>
+                    <span class="data">05/09/2016</span>
+                </li>
+                <li>
+                    <a href="sorocaba-rio-de-janeiro-dia-20-e-21.html">Dia 20 e 21 - Sorocaba - Rio de Janeiro</a>
+                    <span class="data">05/09/2016</span>
+                </li>            
+            </ul>
+            </div>
+            
+            <h2>📂 Viagens Curtas<span class="categoria-stats">6 posts</span></h2>
+            <ul>
+                <li>
+                    <a href="passeio-em-sao-thome-das-letras.html">Passeio em São Thomé das Letras - parte 1</a>
+                    <span class="data">16/10/2016</span>
+                </li>
+                <li>
+                    <a href="sao-thome-das-letras-parte-2.html">São Thomé das Letras - parte 2</a>
+                    <span class="data">22/10/2016</span>
+                </li>
+                <li>
+                    <a href="sao-thome-das-letras-parte-3.html">São Thomé das Letras - parte 3</a>
+                    <span class="data">03/12/2016</span>
+                </li>
+                <li>
+                    <a href="sao-thome-das-letras-final">São Thomé das Letras - Final</a>
+                    <span class="data">08/12/2016</span>
+                </li>
+                <li>
+                    <a href="de-moto-do-rio-a-ibitipoca-mg.html">De moto do Rio a Ibitipoca / MG</a>
+                    <span class="data">09/07/2013</span>
+                </li>
+                <li>
+                    <a href="fim-de-semana-em-silva-jardim-rj.html">Fim de Semana em Silva Jardim - RJ</a>
+                    <span class="data">30/06/2013</span>
+                </li>
+            </ul>
 
-        <h2>📂 Bate e Volta<span class="categoria-stats">3 posts</span></h2>
-        <ul>
-            <li>
-                <a href="de-moto-ate-itaipuacu-buraco-da-aeronautica.html">De moto até Itaipuaçu - Buraco da Aeronáutica</a>
-                <span class="data">06/09/2013</span>
-            </li>
-            <li>
-                <a href="passeio-de-moto-na-serra-do-piloto.html">Passeio de Moto na Serra do Piloto</a>
-                <span class="data">03/07/2013</span>
-            </li>
-            <li>
-                <a href="rio-de-janeiro-ate-arcadia-paty-do-alferes.html">Rio de Janeiro até Arcádia, Paty do Alferes</a>
-                <span class="data">02/07/2013</span>
-            </li>
-        </ul>
+            <h2>📂 Bate e Volta<span class="categoria-stats">3 posts</span></h2>
+            <ul>
+                <li>
+                    <a href="de-moto-ate-itaipuacu-buraco-da-aeronautica.html">De moto até Itaipuaçu - Buraco da Aeronáutica</a>
+                    <span class="data">06/09/2013</span>
+                </li>
+                <li>
+                    <a href="passeio-de-moto-na-serra-do-piloto.html">Passeio de Moto na Serra do Piloto</a>
+                    <span class="data">03/07/2013</span>
+                </li>
+                <li>
+                    <a href="rio-de-janeiro-ate-arcadia-paty-do-alferes.html">Rio de Janeiro até Arcádia, Paty do Alferes</a>
+                    <span class="data">02/07/2013</span>
+                </li>
+            </ul>
 
-        <h2>📂 Equipamentos<span class="categoria-stats">2 posts</span></h2>
-        <ul>
-            <li>
-                <a href="avaliacao-tenis-timberland-guardian-ls.html">Avaliação Tênis Timberland Guardian LS</a>
-                <span class="data">06/06/2017</span>
-            </li>
-            <li>
-                <a href="saco-estanque-impermeavel-diy.html">Saco Estanque Impermeável - DIY</a>
-                <span class="data">22/12/2016</span>
-            </li>
-        </ul>
+            <h2>📂 Equipamentos<span class="categoria-stats">2 posts</span></h2>
+            <ul>
+                <li>
+                    <a href="avaliacao-tenis-timberland-guardian-ls.html">Avaliação Tênis Timberland Guardian LS</a>
+                    <span class="data">06/06/2017</span>
+                </li>
+                <li>
+                    <a href="saco-estanque-impermeavel-diy.html">Saco Estanque Impermeável - DIY</a>
+                    <span class="data">22/12/2016</span>
+                </li>
+            </ul>
 
-        <h2>📂 Moto<span class="categoria-stats">1 post</span></h2>
-        <ul>
-            <li>
-                <a href="minha-moto-yamaha-tenere-250.html">Minha moto, Yamaha Ténéré 250</a>
-                <span class="data">30/06/2013</span>
-            </li>
-        </ul>
+            <h2>📂 Moto<span class="categoria-stats">1 post</span></h2>
+            <ul>
+                <li>
+                    <a href="minha-moto-yamaha-tenere-250.html">Minha moto, Yamaha Ténéré 250</a>
+                    <span class="data">30/06/2013</span>
+                </li>
+            </ul>
 
-        <h2>📂 Torres del Paine<span class="categoria-stats">2 posts</span></h2>
-        <ul>
-            <li>
-                <a href="passeios-de-1-dia-torres-del-paine.html">Passeios de 1 Dia - Torres del Paine</a>
-                <span class="data">15/07/2020</span>
-            </li>
-            <li>
-                <a href="guia-torres-del-paine-roteiros-e-passeios.html">Guia Torres del Paine - Roteiros e Passeios</a>
-                <span class="data">16/01/2020</span>
-            </li>
-        </ul>
-
+            <h2>📂 Torres del Paine<span class="categoria-stats">2 posts</span></h2>
+            <ul>
+                <li>
+                    <a href="passeios-de-1-dia-torres-del-paine.html">Passeios de 1 Dia - Torres del Paine</a>
+                    <span class="data">15/07/2020</span>
+                </li>
+                <li>
+                    <a href="guia-torres-del-paine-roteiros-e-passeios.html">Guia Torres del Paine - Roteiros e Passeios</a>
+                    <span class="data">16/01/2020</span>
+                </li>
+            </ul>
+        </div>
 
 
 
